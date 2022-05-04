@@ -1,0 +1,56 @@
+.posts-main{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    padding: 90px 0 90px 0;
+    background-color: rgb(252, 252, 252);
+
+}
+
+.post-form {
+    background-color: white;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    box-shadow: -1px 0px 5px 5px #f4f4fa;
+    margin: 5px 25px;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.post-form >h1 {
+    color: #fd4500;
+    font-size: larger;
+    margin: 15px 5px 15px 5px;
+}
+
+.post-title > input{
+    width: 50%;
+    padding:8px 10px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.post-textarea > textarea {
+    width: 50%;
+    padding:8px 10px;
+    margin-top: 2%;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.post-btn  > button {
+    width: 15%;
+    height: 8%;
+    border-radius: 60px;
+    background-color: #fd4500;
+    color: white;
+    font-size: 20px;
+    border: none;
+    margin-top: 1%;
+}
+
+.post-url > input{
+    width: 50%;
+    padding:8px 10px;
+    border-radius: 5px 5px 5px 5px;
+    margin-top: 2%;
+}
