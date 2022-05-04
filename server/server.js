@@ -37,6 +37,10 @@ mongoose
     console.log(err);
   });
 
+
+app.get('/', (req, res)=>{
+  res.send("API running!");
+});
 const PORT = process.env.PORT;
 app.listen(PORT, () => {
   console.log("app is running on port " + PORT);
