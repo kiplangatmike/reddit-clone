@@ -28,7 +28,7 @@ app.use("/api/users.json", userController);
 
 const mongoose = require("mongoose");
 
-const MONGODB_URL = process.env.MONGODB_URL || 5000;
+const MONGODB_URL = process.env.MONGODB_URL;
 
 mongoose
   .connect(MONGODB_URL)
@@ -37,7 +37,7 @@ mongoose
     console.log(err);
   });
 
-const PORT = process.env.PORT1;
+const PORT = process.env.PORT;
 app.listen(PORT, () => {
   console.log("app is running on port " + PORT);
 });
